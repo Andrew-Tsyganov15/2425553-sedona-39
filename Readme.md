@@ -2,7 +2,7 @@
 
 * Студент: [Андрей Цыганов](https://up.htmlacademy.ru/htmlcss/39/user/2425553).
 * Наставник: [Александр Зиновьев](https://htmlacademy.ru/profile/id198751).
-
+* Сайт: [Андрей Цыганов. Учебный проект Седона](https://andrew-tsyganov15.github.io/2425553-sedona-39/)
 ---
 
 _Не удаляйте и не обращайте внимание на файлы:_<br>
