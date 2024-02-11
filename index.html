@@ -8,11 +8,9 @@
   </head>
   <body>
     <header class="page-header">
-      <div>
-          <a class="navigation-logo-link navigation-link">
-            <img class="navigation-logo-img" src="#" alt="Логотип городка Седона"> <!--добавить логотип-->
-          </a>
-      </div>
+      <a class="navigation-logo-link navigation-link">
+        <img class="navigation-logo-img" src="#" alt="Логотип городка Седона"> <!--добавить логотип-->
+      </a>
       <nav class="navigation">
         <ul class="navigation-list">
           <li class="navigation-item">
@@ -43,7 +41,7 @@
         </ul>
       </nav>
     </header>
-    <main class="main-index"></main>
+    <main class="main-index">
       <section class="hero">
         <h1 class="visually-hidden">Добро пожаловать в городок Седона</h1>
         <img class="hero-img-background" src="#" alt="Горный пейзаж Седоны">
@@ -56,13 +54,13 @@
           <ul class="advantages-list">
             <li class="advantages-list-item">
               <h3>Настоящий городок</h3>
-              <hr class="grey-line">
+              <hr>
               <p>Седона — не аттракцион для туристов, там течёт своя жизнь</p>
               <img class="advantages-photo" src="#" alt="Фото Седоны">
             </li>
             <li class="advantages-list-item">
               <h3>Небольшая площадь</h3>
-              <hr class="grey-line">
+              <hr>
               <p>Все достопримечательности находятся очень близко</p>
             </li>
             <li class="advantages-list-item">
@@ -72,13 +70,13 @@
             </li>
             <li class="advantages-list-item">
               <h3>Мало туристов</h3>
-              <hr class="grey-line">
+              <hr>
               <p>Большинство едет в Гранд Каньон и толпится там</p>
             </li>
             <li class="advantages-list-item">
               <img class="advantages-photo" src="#" alt="Фото Моста Дьявола">
               <h3>Там есть мост дьявола</h3>
-              <hr class="blue-line">
+              <hr>
               <p>Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
             </li>
           </ul>
@@ -109,8 +107,9 @@
       <section class="subscribe">
         <h2 class="bloc-title-white">Подпишитесь на рассылку</h2>
         <p>Только полезная информация и никакого спама, <br>честное бойскаутское!</p>
-        <form action="https://echo.htmlacademy.ru" method="post">
-          <input type="email" name="subscribe-field" id="subscribe-field" placeholder="Ваш e-mail">
+        <form class="subscribe-form" action="https://echo.htmlacademy.ru" method="post">
+          <label class="visually-hidden" for="subscribe-field">E-mail</label>
+          <input type="email" name="subscribe-field" id="subscribe-field" placeholder="Ваш e-mail" required>
             <button type="submit" class="subscribe-button button">
               <span>Подписаться</span>
             </button>
@@ -118,40 +117,29 @@
       </section>
     </main>
     <footer class="page-footer">
-      <section class="footer-social">
-        <h4 class="visually-hidden">Социальные сети</h4>
+      <div class="footer-social">
         <ul class="footer-social-list">
           <li class="footer-social-item">
-            <a class="footer-button button" href="#">
+            <a class="footer-button button" href="https://vk.com/htmlacademy">
               <span class="visually-hidden">Vkontakte</span>
-              <!--svg></svg-->
             </a>
           </li>
           <li class="footer-social-item">
-            <a class="footer-button button" href="#">
+            <a class="footer-button button" href="https://t.me/htmlacademy">
               <span class="visually-hidden">Telegram</span>
-              <!--svg></svg-->
             </a>
           </li>
           <li class="footer-social-item">
-            <a class="footer-button button" href="#">
+            <a class="footer-button button" href="https://www.youtube.com/user/htmlacademyru">
               <span class="visually-hidden">Youtube</span>
-              <!--svg></svg-->
             </a>
           </li>
         </ul>
-      </section>
-      <section class="phone">
-        <h4 class="visually-hidden">Телефон</h4>
+      </div>
         <a class="footer-contacts-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
-      </section>
-      <section class="htmlacademy">
-        <h4 class="visually-hidden">html academy</h4>
         <a class="htmlacademy-link" href="https://htmlacademy.ru/">
           <span class="visually-hidden">html academy</span>
-          <!--svg></svg-->
         </a>
-      </section>
     </footer>
   </body>
 </html>
